@@ -5,7 +5,7 @@ const generateTasks = () => {
   let arr = new Array(50);
   for (let i = 0; i < 50; i++) {
     arr[i] = {
-      task: `Task ${i + 1}`,
+      task: `Todo ${i + 1}`,
       completed: i % 2 == 1,
     };
   }
